@@ -66,6 +66,9 @@ The empire of another world is blessed with abundant natural resources and thriv
 
 ### Requirements for Background
 
+Difficulty Analysis: 
+The price range for a single anime-style illustration might be approximately between $143 ~ $1286. Individuals willing to work for free for us may not exist. Contributors who can utilize large AI models for drawing to locally generate high-quality images meeting requirements (web-based AI generation might have copyright issues) would be highly welcomed. Currently, most people's GPUs are insufficient to support local AI text-to-image generation, which presents a challenge. The second challenge is that we require character design sheets, with consistent depictions of fixed characters across different scenarios. While separating character layers from background layers might facilitate AI generation, this approach could create lighting inconsistencies between characters and environments, potentially necessitating manual adjustments. No solution currently exists for this issue - those with potential solutions are invited to join our Microsoft Teams online meeting.
+
 Artists may include their signature (artist name and artwork title) and date (completion date) in the corner of the image. However, these markings must not occupy too much space within the frame.All images must be clear with no obvious blurring, stretching, compression, black edges, white edges, etc.The background image must have a resolution of 1920*1080.Include attribution if using third-party assets.Third-party materials may involve copyright issues and are not recommended for use. It's best to obtain a license that allows free commercial use.）
 
 ### Requirements for Audio
