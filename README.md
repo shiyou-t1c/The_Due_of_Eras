@@ -50,10 +50,40 @@ The script primarily reads content from the "b1p/b1.tres" file:
 
 
 
-Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. However, once the product is comparable to commercial products, we will need to build a fan base in the market. For sequels, we will switch to closed-source development and generate some income to sustain the project.
+Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. 
 
 We don’t have strict working hours, and all decisions are made through voting. Therefore, everyone can contribute code easily without too much pressure. Even if you’re not a professional, you can still provide suggestions for the storyline.
 
 ### Plot summary
 
 The empire of another world is blessed with abundant natural resources and thriving agriculture. The ruling class of the kingdom consists of old nobility, whose families have controlled most of the land and political power for generations. However, with the rise of overseas trade and the emergence of capitalism, a new merchant class and landed gentry have begun to ascend, eager to gain greater political influence and economic privileges. As a rising merchant, you participate in this era of profound societal change. 
+
+### Requirements for Background
+
+Artists may include their signature (artist name and artwork title) and date (completion date) in the corner of the image. However, these markings must not occupy too much space within the frame.All images must be clear with no obvious blurring, stretching, compression, black edges, white edges, etc.The background image must have a resolution of 1920*1080.Include attribution if using third-party assets.Third-party materials may involve copyright issues and are not recommended for use. It's best to obtain a license that allows free commercial use.）
+
+
+Currently required images: None yet, pending script development.
+
+
+
+### Requirements for Audio
+
+Format & Quality:
+    Must be in .wav or .mp3 format.
+    No distortion, clipping, or background noise.
+
+
+Content:
+    Voice recordings must be clear, with proper pacing and enunciation.
+    Music/SFX should match the tone of the scene (e.g., suspenseful music for tense moments).
+
+
+Metadata:
+    Label files clearly (e.g., SFX_DoorKnock_01.wav).
+    Include attribution if using third-party assets.（Third-party materials may involve copyright issues and are not recommended for use. It's best to record your own audio or obtain a license that allows free commercial use.）
+
+
+### Requirements for Script
+
+The improvements to the program and the storyline mainly involve modifying the b1.gd and b1p/b1.tres files. If you have any suggestions, you can help us by submitting issues or pull requests.
