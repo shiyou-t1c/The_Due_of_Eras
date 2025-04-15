@@ -87,3 +87,11 @@ Metadata:
 ### Requirements for Script
 
 The improvements to the program and the storyline mainly involve modifying the b1.gd and b1p/b1.tres files. If you have any suggestions, you can help us by submitting issues or pull requests.
+
+
+### contact and networks
+
+Although email is a convenient way to contact us, we also provide an online community for discussions and Q&A. We use Microsoft Teams—here’s the invitation link:
+
+
+https://teams.live.com/l/community/FEAwT0gP3U1us8cPgI
