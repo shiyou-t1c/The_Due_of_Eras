@@ -31,10 +31,21 @@ SOFTWARE.
 
 #### Contributing  
 
-1. Fork this repository  
-2. Create a new Feat_xxx branch  
-3. Commit your code  
-4. Create a Pull Request
+Development Guide:
+
+Download the Godot 3.2.2 fork project and clone the forked repository.
+Create a new branch and develop on this branch.
+Commit your code and submit a pull request for this branch.
+
+The project consists of only one script, "b1.gd." Reading this script will give you a general understanding of the entire program.
+The script primarily reads content from the "b1p/b1.tres" file:
+
+Lines starting with # play a sound.
+Lines starting with $ change the background.
+Lines starting with ? provide choice buttons.
+Lines starting with & jump to another branch (if empty, continue the current branch).
+
+
 
 Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. However, once the product is comparable to commercial products, we will need to build a fan base in the market. For sequels, we will switch to closed-source development and generate some income to sustain the project.
 
