@@ -1,0 +1,1287 @@
+commit 5f64f4582c371963cf419fa9c50e372e118256d3
+Author: November20 <wywywy3@outlook.com>
+Date:   Mon Apr 14 20:52:50 2025 +0800
+
+    Initial commit
+
+diff --git a/A.apple-touch-icon.png b/A.apple-touch-icon.png
+new file mode 100755
+index 0000000..4839060
+Binary files /dev/null and b/A.apple-touch-icon.png differ
+diff --git a/A.apple-touch-icon.png.import b/A.apple-touch-icon.png.import
+new file mode 100755
+index 0000000..aeacedd
+--- /dev/null
++++ b/A.apple-touch-icon.png.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/A.apple-touch-icon.png-cbd281c6e810e056288e673b9820325e.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://A.apple-touch-icon.png"
++dest_files=[ "res://.import/A.apple-touch-icon.png-cbd281c6e810e056288e673b9820325e.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/A.icon.png b/A.icon.png
+new file mode 100755
+index 0000000..e032a97
+Binary files /dev/null and b/A.icon.png differ
+diff --git a/A.icon.png.import b/A.icon.png.import
+new file mode 100755
+index 0000000..960c466
+--- /dev/null
++++ b/A.icon.png.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/A.icon.png-16475134a1b0134d4dddc93d34166854.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://A.icon.png"
++dest_files=[ "res://.import/A.icon.png-16475134a1b0134d4dddc93d34166854.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/A.png b/A.png
+new file mode 100755
+index 0000000..766b0b6
+Binary files /dev/null and b/A.png differ
+diff --git a/A.png.import b/A.png.import
+new file mode 100755
+index 0000000..e16bb83
+--- /dev/null
++++ b/A.png.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/A.png-d8e4b70baf8d07860b8d6ddf1df16d34.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://A.png"
++dest_files=[ "res://.import/A.png-d8e4b70baf8d07860b8d6ddf1df16d34.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/LICENSE b/LICENSE
+new file mode 100644
+index 0000000..00c128a
+--- /dev/null
++++ b/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2025 shiyou
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..0f26911
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,39 @@
++# The_Due_of_Eras
++
++#### 介绍
++The Duel of Eras
++
++#### 软件架构
++godot3.2.2开发，使用opengles2.0.
++
++#### 开源协议
++基于MIT协议：
++MIT License
++
++Copyright (c) [2025] [shiyou]
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE
++
++#### 参与贡献
++
++1.  Fork 本仓库
++2.  新建 Feat_xxx 分支
++3.  提交代码
++4.  新建 Pull Request
++
+diff --git a/b1.gd b/b1.gd
+new file mode 100644
+index 0000000..d47e478
+--- /dev/null
++++ b/b1.gd
+@@ -0,0 +1,312 @@
++extends Node2D
++
++onready var bg_texture_rect = $Control/background
++onready var audio_player = $Control/AudioStreamPlayer
++
++var button_container
++var text_segments = []
++var is_audio_playing = false
++var tween = Tween.new()  
++var config = ConfigFile.new()  
++const SAVE_PATH = "user://bg_save.cfg"  
++
++var current_segment_index = 0  # 新增：保存当前文本段落的索引
++var last_image_index = 0
++
++var last_image_file_path = ""
++var current_file_path = ""
++
++var is_transitioning = false
++var is_showing_buttons = false
++var label_node = null
++var exit_button = null
++var scroll_container = null
++
++func update_background_image(image_path):
++	var target_texture = load(image_path.strip_edges())  
++	if target_texture:
++		if bg_texture_rect.texture   != target_texture:
++			tween.interpolate_property(bg_texture_rect,   "modulate",
++				bg_texture_rect.modulate,   Color(1, 0.9, 0.8, 0), 0.6,
++				Tween.TRANS_SINE, Tween.EASE_IN)
++			tween.interpolate_callback(self,   0.6, "_apply_new_texture", target_texture)
++			tween.start()  
++	else:
++		print("无效背景路径:", image_path)
++
++func _notification(what):
++	if what == MainLoop.NOTIFICATION_WM_QUIT_REQUEST:
++		get_tree().quit()
++
++func save_progress():
++	config.set_value("progress",   "last_image_file_path", last_image_file_path)
++	config.set_value("progress",   "last_image_index", last_image_index)  # 新增：保存当前文本段落的索引
++	config.save(SAVE_PATH)  
++
++func load_progress():
++	if config.load(SAVE_PATH)   == OK:
++		last_image_file_path = config.get_value("progress",   "last_image_file_path", "")
++		last_image_index = config.get_value("progress",   "last_image_index", 0)  # 新增：加载当前文本段落的索引
++		return true
++	return false
++
++func _ready():
++	add_child(tween)
++	audio_player.volume_db   = -10
++	bg_texture_rect.modulate   = Color(1, 0.95, 0.9, 1)
++
++	if load_progress():
++		# 有存档的情况下如何处理
++		print(last_image_file_path)
++		print(last_image_index)
++		current_segment_index = last_image_index
++		load_text_file_p(last_image_file_path)
++	else:
++		# 没存档的情况下，就从头开始
++		load_text_file("res://b1p/b1.tres")
++
++	button_container = HBoxContainer.new()  
++	button_container.name   = "ButtonContainer"
++	button_container.rect_min_size   = Vector2(600, 120)
++	button_container.rect_position   = Vector2(50, 350)
++	button_container.set("custom_constants/separation",   20)
++	$Control.add_child(button_container)  
++
++	create_exit_button()
++
++func _apply_new_texture(new_texture):
++	bg_texture_rect.texture   = new_texture
++	tween.interpolate_property(bg_texture_rect,   "modulate",
++		Color(1, 0.95, 0.9, 0), Color(1, 0.95, 0.9, 1), 0.8, Tween.TRANS_QUAD, Tween.EASE_OUT)
++	tween.start()  
++
++func show_next_text_segment():
++	if is_transitioning: return
++	stop_audio_if_playing()
++
++	if text_segments.size()   > current_segment_index + 1:
++		current_segment_index += 1  # 新增：更新当前文本段落的索引
++		parse_and_display_segment(text_segments[current_segment_index].strip_edges())
++	else:
++		print("已到达文本末尾，暂停显示")
++		delete_save_file()
++
++func load_text_file(file_path):
++	var file = File.new()  
++	if file.file_exists(file_path):  
++		file.open(file_path,   File.READ)
++		var full_text = file.get_as_text()  
++		text_segments = full_text.split("\n\n")    # 严格使用双换行符分割
++		file.close()
++		current_file_path = file_path
++		current_segment_index = 0  # 新增：重置当前文本段落的索引
++		parse_and_display_segment(text_segments[current_segment_index].strip_edges())
++	else:
++		print("文件不存在: ", file_path) 
++
++func load_text_file_p(file_path):
++	var file = File.new()  
++	if file.file_exists(file_path):  
++		file.open(file_path,   File.READ)
++		var full_text = file.get_as_text()  
++		text_segments = full_text.split("\n\n")    # 严格使用双换行符分割
++		file.close()
++		current_file_path = file_path
++		parse_and_display_segment(text_segments[current_segment_index].strip_edges())
++	else:
++		print("文件不存在: ", file_path) 
++
++func _input(event):
++	if is_transitioning: return
++	if is_showing_buttons: return
++
++	if exit_button and event is InputEventMouseButton and event.button_index   == BUTTON_LEFT and event.pressed:  
++		var button_rect = Rect2(exit_button.rect_position,   exit_button.rect_min_size)  
++		if button_rect.has_point(event.position):  
++			_on_exit_button_pressed()
++			return
++
++	if event is InputEventScreenTouch and event.pressed   or \
++	   event is InputEventMouseButton and event.button_index   == BUTTON_LEFT and event.pressed:  
++		show_next_text_segment()
++
++func create_decision_buttons(options, paths):
++	if label_node:
++		label_node.queue_free()  
++		label_node = null
++
++	for child in button_container.get_children():  
++		child.queue_free()  
++
++	var style = StyleBoxFlat.new()  
++	style.bg_color   = Color(0.5, 0.5, 0.5, 0.7)
++	style.set_border_width_all(2)  
++	style.border_color   = Color(0.9, 0.9, 0.9)
++	style.set_corner_radius_all(8)  
++	style.content_margin_left   = 10
++	style.content_margin_right   = 10
++	style.content_margin_top   = 10
++	style.content_margin_bottom   = 10
++
++	var font = DynamicFont.new()  
++	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")  
++	font.size   = 70
++
++	for i in range(options.size()):  
++		var button = Button.new()  
++		button.text   = options[i]
++		button.clip_text   = false
++		button.align   = Button.ALIGN_LEFT
++		button.add_font_override("font",   font)
++		button.rect_min_size   = Vector2(clamp(font.get_string_size(options[i]).x   + 40, 300, 600), 100)
++		button.size_flags_horizontal   = Control.SIZE_EXPAND_FILL
++		button.add_stylebox_override("normal",   style)
++		var target_path = paths[i] if i < paths.size()   else ""
++		button.connect("pressed",   self, "_on_option_selected", [target_path])
++		button_container.add_child(button)  
++
++	var btn_scroll = ScrollContainer.new()  
++	btn_scroll.rect_min_size   = Vector2(2000, 400)
++	btn_scroll.rect_position   = Vector2(50, 500)
++	$Control.remove_child(button_container)  
++	btn_scroll.add_child(button_container)  
++	$Control.add_child(btn_scroll)  
++
++func parse_and_display_segment(segment):
++	if not label_node:
++		create_label()
++
++	label_node.text   = ""
++
++	var current_options = []
++	var current_paths = []
++	var lines = segment.split("\n")  
++
++	for line in lines:
++		line = line.strip_edges()  
++		if line.begins_with("#"):  
++			play_audio(line.replace("#",   ""))
++		elif line.begins_with("$"):  
++			#存档点----------------------------------------------------
++			last_image_file_path = current_file_path
++			last_image_index = current_segment_index
++			save_progress()
++			update_background_image(line.replace("$",   ""))
++		elif line.begins_with("?"):  
++			current_options.append(line.replace("?",   "").strip_edges())
++		elif line.begins_with("&"):  
++			current_paths.append(line.replace("&",   "").strip_edges())
++		else:
++			append_text(line + "\n")
++
++	if current_options.size()   > 0:
++		is_showing_buttons = true
++		create_decision_buttons(current_options, current_paths)
++	else:
++		is_showing_buttons = false
++
++func append_text(text):
++	if label_node:
++		label_node.text   += text
++
++func play_audio(audio_path):
++	var path = audio_path.strip_edges()  
++	if not path: return
++
++	var audio_stream = ResourceLoader.load(path)  
++	if audio_stream:
++		stop_audio_if_playing()
++		audio_player.stream   = audio_stream
++		if audio_player.is_connected("finished",   self, "_on_audio_finished"):
++			audio_player.disconnect("finished",   self, "_on_audio_finished")
++		audio_player.connect("finished",   self, "_on_audio_finished")
++		audio_player.play()  
++		is_audio_playing = true
++	else:
++		print("无法加载音频: ", path)
++
++func stop_audio_if_playing():
++	if is_audio_playing:
++		if audio_player.is_connected("finished",   self, "_on_audio_finished"):
++			audio_player.disconnect("finished",   self, "_on_audio_finished")
++		audio_player.stop()  
++		is_audio_playing = false
++
++func _on_audio_finished():
++	is_audio_playing = false
++	print("音频播放已完成")
++
++func delete_save_file():
++	var dir = Directory.new()  
++	if dir.file_exists(SAVE_PATH):  
++		dir.remove(SAVE_PATH)  
++		print("存档文件已删除")
++	else:
++		print("存档文件不存在，无需删除")
++
++func create_label():
++	scroll_container = ScrollContainer.new()  
++	scroll_container.rect_min_size   = Vector2(2200, 400)
++	scroll_container.rect_position   = Vector2(100, 600)
++	scroll_container.scroll_horizontal_enabled   = false
++
++	label_node = Label.new()  
++	label_node.rect_min_size   = Vector2(2200, 0)
++	label_node.size_flags_vertical   = Control.SIZE_EXPAND_FILL
++	label_node.autowrap   = true
++	label_node.valign   = Label.VALIGN_TOP
++	label_node.add_color_override("font_color",   Color(1, 1, 1))
++	label_node.add_color_override("font_color_shadow",   Color(0, 0, 0, 0.5))
++	label_node.add_constant_override("shadow_offset_x",   2)
++	label_node.add_constant_override("shadow_offset_y",   2)
++	label_node.add_constant_override("line_spacing",   10)
++
++	var label_style = StyleBoxFlat.new()  
++	label_style.bg_color   = Color(0.2, 0.2, 0.2, 0.6)
++	label_style.set_corner_radius_all(8)  
++	label_style.content_margin_left   = 20
++	label_style.content_margin_right   = 20
++	label_style.content_margin_top   = 20
++	label_style.content_margin_bottom   = 20
++	label_node.add_stylebox_override("normal",   label_style)
++
++	var font = DynamicFont.new()  
++	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")  
++	font.size   = 75
++	label_node.add_font_override("font",   font)
++
++	scroll_container.add_child(label_node)  
++	$Control.add_child(scroll_container)  
++
++func create_exit_button():
++	exit_button = Button.new()  
++	exit_button.text   = "quit"
++	exit_button.clip_text   = false
++	exit_button.rect_min_size   = Vector2(150, 80)
++	exit_button.rect_position   = Vector2(2205, 25)
++
++	var style = StyleBoxFlat.new()  
++	style.bg_color   = Color(0.5, 0.5, 0.5, 0.7)
++	style.set_corner_radius_all(8)  
++	exit_button.add_stylebox_override("normal",   style)
++
++	var font = DynamicFont.new()  
++	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")  
++	font.size   = 50
++	exit_button.add_font_override("font",   font)
++
++	exit_button.connect("pressed",   self, "_on_exit_button_pressed")
++	$Control.add_child(exit_button)  
++
++func _on_exit_button_pressed():
++	get_tree().quit()
++
++func _on_option_selected(target_path):
++	is_showing_buttons = false
++	for child in button_container.get_children():  
++		child.queue_free()  
++
++	if target_path != "":
++		load_text_file(target_path)  # 此处已包含显示逻辑
++	else:
++		show_next_text_segment()
+diff --git a/b1.tscn b/b1.tscn
+new file mode 100644
+index 0000000..0369b68
+--- /dev/null
++++ b/b1.tscn
+@@ -0,0 +1,32 @@
++[gd_scene load_steps=3 format=2]
++
++[ext_resource path="res://b1.gd" type="Script" id=4]
++
++[sub_resource type="StreamTexture" id=1]
++flags = 4
++load_path = "res://.import/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg-22738f11230864facaf8bf4a280c685c.stex"
++
++[node name="Node2D" type="Node2D"]
++script = ExtResource( 4 )
++
++[node name="Control" type="Control" parent="."]
++margin_right = 40.0
++margin_bottom = 40.0
++__meta__ = {
++"_edit_use_anchors_": false
++}
++
++[node name="background" type="TextureRect" parent="Control"]
++margin_left = -30.0
++margin_top = -30.0
++margin_right = 2619.0
++margin_bottom = 1470.0
++size_flags_horizontal = 3
++texture = SubResource( 1 )
++expand = true
++stretch_mode = 6
++__meta__ = {
++"_edit_use_anchors_": false
++}
++
++[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Control"]
+diff --git a/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg b/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg
+new file mode 100644
+index 0000000..4835dbe
+Binary files /dev/null and b/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg differ
+diff --git a/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg.import b/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg.import
+new file mode 100644
+index 0000000..fc8ef66
+--- /dev/null
++++ b/b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg-22738f11230864facaf8bf4a280c685c.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://b1p/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg"
++dest_files=[ "res://.import/9ee1e8db-de9d-428e-a30c-c661b5a0c25e_0.jpg-22738f11230864facaf8bf4a280c685c.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/b1p/a1.wav b/b1p/a1.wav
+new file mode 100755
+index 0000000..8ada7a2
+Binary files /dev/null and b/b1p/a1.wav differ
+diff --git a/b1p/a1.wav.import b/b1p/a1.wav.import
+new file mode 100755
+index 0000000..9c85fa8
+--- /dev/null
++++ b/b1p/a1.wav.import
+@@ -0,0 +1,21 @@
++[remap]
++
++importer="wav"
++type="AudioStreamSample"
++path="res://.import/a1.wav-861def4026533e5e6b785ea5050eb2f9.sample"
++
++[deps]
++
++source_file="res://b1p/a1.wav"
++dest_files=[ "res://.import/a1.wav-861def4026533e5e6b785ea5050eb2f9.sample" ]
++
++[params]
++
++force/8_bit=false
++force/mono=false
++force/max_rate=false
++force/max_rate_hz=44100
++edit/trim=false
++edit/normalize=false
++edit/loop=false
++compress/mode=0
+diff --git a/b1p/b1.tres b/b1p/b1.tres
+new file mode 100755
+index 0000000..41b4af0
+--- /dev/null
++++ b/b1p/b1.tres
+@@ -0,0 +1,28 @@
++
++Act One: Crimson Twilight - Parliament Hall
++#res://b1p/a1.wav
++
++The faint scent of leather and old pages filled the study.
++
++$res://b1p/p2.jpg
++Butler: The affairs of the House of Lords still require your presence.
++
++$res://b1p/p3.jpg
++The secretary of the Upper House gracefully entered the study, quietly approached you, and respectfully bowed.
++
++Secretary of the Upper House: I hope to escort you to the nearest carriage; the meeting is about to begin.
++
++? I won't attend the meeting.
++&res://b1p/b2.tres
++? I will attend the meeting.
++&
++
++$res://b1p/p5.jpg
++The carriage is parked at the foot of the stone stairs in front of the mansion, drawn by sturdy white horses, with the body adorned with intricate carvings.
++
++The carriage began to move, its wheels emitting a soft clatter against the cobblestone road.
++
++$res://b1p/b4.jpg
++At dusk, the sky was painted with soft hues of orange and purple.
++
++Further development is pending.
+diff --git a/b1p/b2.tres b/b1p/b2.tres
+new file mode 100755
+index 0000000..1979134
+--- /dev/null
++++ b/b1p/b2.tres
+@@ -0,0 +1,5 @@
++
++The butler then took an official letter to the House of Lords accompanied by the coachman, containing the formal response I had drafted to politely decline the invitation.
++
++$res://b1p/b4.jpg
++Further development is pending.
+diff --git a/b1p/b4.jpg b/b1p/b4.jpg
+new file mode 100644
+index 0000000..a9779d7
+Binary files /dev/null and b/b1p/b4.jpg differ
+diff --git a/b1p/b4.jpg.import b/b1p/b4.jpg.import
+new file mode 100644
+index 0000000..a2d8974
+--- /dev/null
++++ b/b1p/b4.jpg.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/b4.jpg-5cec39a9e46f9566d82a8586ede82478.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://b1p/b4.jpg"
++dest_files=[ "res://.import/b4.jpg-5cec39a9e46f9566d82a8586ede82478.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/b1p/p2.jpg b/b1p/p2.jpg
+new file mode 100644
+index 0000000..91a9229
+Binary files /dev/null and b/b1p/p2.jpg differ
+diff --git a/b1p/p2.jpg.import b/b1p/p2.jpg.import
+new file mode 100644
+index 0000000..469f069
+--- /dev/null
++++ b/b1p/p2.jpg.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/p2.jpg-3c2a8d52fa6f9462dd7fd1ff9114c52e.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://b1p/p2.jpg"
++dest_files=[ "res://.import/p2.jpg-3c2a8d52fa6f9462dd7fd1ff9114c52e.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/b1p/p3.jpg b/b1p/p3.jpg
+new file mode 100644
+index 0000000..4ca4bfc
+Binary files /dev/null and b/b1p/p3.jpg differ
+diff --git a/b1p/p3.jpg.import b/b1p/p3.jpg.import
+new file mode 100644
+index 0000000..abb1374
+--- /dev/null
++++ b/b1p/p3.jpg.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/p3.jpg-77aeba3dcf9041f09960646fb2301c7c.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://b1p/p3.jpg"
++dest_files=[ "res://.import/p3.jpg-77aeba3dcf9041f09960646fb2301c7c.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/b1p/p5.jpg b/b1p/p5.jpg
+new file mode 100644
+index 0000000..9ee3a4e
+Binary files /dev/null and b/b1p/p5.jpg differ
+diff --git a/b1p/p5.jpg.import b/b1p/p5.jpg.import
+new file mode 100644
+index 0000000..8d8f82c
+--- /dev/null
++++ b/b1p/p5.jpg.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/p5.jpg-d24f7bd039d84d11853a8561e202f8f4.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://b1p/p5.jpg"
++dest_files=[ "res://.import/p5.jpg-d24f7bd039d84d11853a8561e202f8f4.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/b1p/wenshengtu b/b1p/wenshengtu
+new file mode 100755
+index 0000000..9c651df
+--- /dev/null
++++ b/b1p/wenshengtu
+@@ -0,0 +1,17 @@
++使用AI工具生成的图片，其版权归属问题比较复杂，通常取决于以下几个因素：
++
++1. AI工具的使用条款和政策
++MidJourney: 根据MidJourney的使用条款，用户对其生成的图像拥有完全的版权。这意味着你可以自由地使用、分发和修改这些图像，而无需向MidJourney支付额外费用。
++DALL-E 2: OpenAI（DALL-E 2的开发者）在其服务条款中规定，用户对其通过DALL-E 2生成的图像拥有版权，但OpenAI保留对生成内容进行研究和改进的权利。
++Stable Diffusion: Stable Diffusion是一个开源项目，其模型和代码是公开可用的。根据其许可证（通常是MIT或Apache等开源许可证），用户可以自由使用生成的图像，并且通常拥有这些图像的版权。
++2. 输入的描述和创意
++如果你提供了详细的描述和创意，那么生成的图像可以被视为基于你的创意和指令创作的作品，因此你可能拥有该作品的版权。
++然而，如果AI工具在生成图像时参考了大量现有的艺术作品或数据集，那么这些现有作品的版权可能会对生成图像的版权产生影响。
++3. 法律和地域差异
++不同国家和地区对于AI生成内容的版权法可能有所不同。例如，在某些司法管辖区，AI生成的内容可能不被视为“作品”，因此不受版权保护。
++4. 商业用途和许可
++即使你拥有生成图像的版权，如果你打算将这些图像用于商业用途，可能还需要遵守特定的许可协议或条款。一些AI工具可能会要求你在商业使用前获得额外的许可。
++总结
++一般来说，如果你使用的是上述提到的AI工具（如MidJourney、DALL-E 2、Stable Diffusion），并且遵循了它们的使用条款，那么你通常会拥有生成图像的版权。然而，为了确保没有法律风险，建议仔细阅读并理解所使用的AI工具的具体条款和条件，并在必要时咨询法律专业人士。
++
++此外，如果你希望在商业环境中使用AI生成的图像，最好提前了解相关的版权和许可要求，以避免潜在的法律问题。
+diff --git a/default_env.tres.tmp b/default_env.tres.tmp
+new file mode 100755
+index 0000000..20207a4
+--- /dev/null
++++ b/default_env.tres.tmp
+@@ -0,0 +1,7 @@
++[gd_resource type="Environment" load_steps=2 format=2]
++
++[sub_resource type="ProceduralSky" id=1]
++
++[resource]
++background_mode = 2
++background_sky = SubResource( 1 )
+diff --git a/export_presets.cfg b/export_presets.cfg
+new file mode 100644
+index 0000000..42ae97a
+--- /dev/null
++++ b/export_presets.cfg
+@@ -0,0 +1,226 @@
++[preset.0]
++
++name="Linux/X11"
++platform="Linux/X11"
++runnable=true
++custom_features=""
++export_filter="all_resources"
++include_filter=""
++exclude_filter=""
++export_path="./A.x86_64"
++patch_list=PoolStringArray(  )
++script_export_mode=1
++script_encryption_key=""
++
++[preset.0.options]
++
++texture_format/bptc=false
++texture_format/s3tc=true
++texture_format/etc=false
++texture_format/etc2=false
++texture_format/no_bptc_fallbacks=true
++binary_format/64_bits=true
++binary_format/embed_pck=true
++custom_template/release=""
++custom_template/debug=""
++
++[preset.1]
++
++name="Android"
++platform="Android"
++runnable=true
++custom_features=""
++export_filter="all_resources"
++include_filter=""
++exclude_filter=""
++export_path="../视频/The Duel of Eras.apk"
++patch_list=PoolStringArray(  )
++script_export_mode=1
++script_encryption_key=""
++
++[preset.1.options]
++
++graphics/32_bits_framebuffer=true
++xr_features/xr_mode=0
++xr_features/degrees_of_freedom=0
++xr_features/hand_tracking=0
++xr_features/focus_awareness=false
++one_click_deploy/clear_previous_install=false
++custom_template/debug=""
++custom_template/release=""
++custom_template/use_custom_build=false
++command_line/extra_args=""
++version/code=1
++version/name="1.0"
++package/unique_name="org.godotengine.$genname"
++package/name=""
++package/signed=true
++screen/immersive_mode=true
++screen/orientation=0
++screen/support_small=true
++screen/support_normal=true
++screen/support_large=true
++screen/support_xlarge=true
++screen/opengl_debug=false
++launcher_icons/main_192x192=""
++launcher_icons/adaptive_foreground_432x432=""
++launcher_icons/adaptive_background_432x432=""
++keystore/debug=""
++keystore/debug_user=""
++keystore/debug_password=""
++keystore/release=""
++keystore/release_user=""
++keystore/release_password=""
++apk_expansion/enable=false
++apk_expansion/SALT=""
++apk_expansion/public_key=""
++architectures/armeabi-v7a=true
++architectures/arm64-v8a=true
++architectures/x86=false
++architectures/x86_64=false
++permissions/custom_permissions=PoolStringArray(  )
++permissions/access_checkin_properties=false
++permissions/access_coarse_location=false
++permissions/access_fine_location=false
++permissions/access_location_extra_commands=false
++permissions/access_mock_location=false
++permissions/access_network_state=false
++permissions/access_surface_flinger=false
++permissions/access_wifi_state=false
++permissions/account_manager=false
++permissions/add_voicemail=false
++permissions/authenticate_accounts=false
++permissions/battery_stats=false
++permissions/bind_accessibility_service=false
++permissions/bind_appwidget=false
++permissions/bind_device_admin=false
++permissions/bind_input_method=false
++permissions/bind_nfc_service=false
++permissions/bind_notification_listener_service=false
++permissions/bind_print_service=false
++permissions/bind_remoteviews=false
++permissions/bind_text_service=false
++permissions/bind_vpn_service=false
++permissions/bind_wallpaper=false
++permissions/bluetooth=false
++permissions/bluetooth_admin=false
++permissions/bluetooth_privileged=false
++permissions/brick=false
++permissions/broadcast_package_removed=false
++permissions/broadcast_sms=false
++permissions/broadcast_sticky=false
++permissions/broadcast_wap_push=false
++permissions/call_phone=false
++permissions/call_privileged=false
++permissions/camera=false
++permissions/capture_audio_output=false
++permissions/capture_secure_video_output=false
++permissions/capture_video_output=false
++permissions/change_component_enabled_state=false
++permissions/change_configuration=false
++permissions/change_network_state=false
++permissions/change_wifi_multicast_state=false
++permissions/change_wifi_state=false
++permissions/clear_app_cache=false
++permissions/clear_app_user_data=false
++permissions/control_location_updates=false
++permissions/delete_cache_files=false
++permissions/delete_packages=false
++permissions/device_power=false
++permissions/diagnostic=false
++permissions/disable_keyguard=false
++permissions/dump=false
++permissions/expand_status_bar=false
++permissions/factory_test=false
++permissions/flashlight=false
++permissions/force_back=false
++permissions/get_accounts=false
++permissions/get_package_size=false
++permissions/get_tasks=false
++permissions/get_top_activity_info=false
++permissions/global_search=false
++permissions/hardware_test=false
++permissions/inject_events=false
++permissions/install_location_provider=false
++permissions/install_packages=false
++permissions/install_shortcut=false
++permissions/internal_system_window=false
++permissions/internet=false
++permissions/kill_background_processes=false
++permissions/location_hardware=false
++permissions/manage_accounts=false
++permissions/manage_app_tokens=false
++permissions/manage_documents=false
++permissions/master_clear=false
++permissions/media_content_control=false
++permissions/modify_audio_settings=false
++permissions/modify_phone_state=false
++permissions/mount_format_filesystems=false
++permissions/mount_unmount_filesystems=false
++permissions/nfc=false
++permissions/persistent_activity=false
++permissions/process_outgoing_calls=false
++permissions/read_calendar=false
++permissions/read_call_log=false
++permissions/read_contacts=false
++permissions/read_external_storage=false
++permissions/read_frame_buffer=false
++permissions/read_history_bookmarks=false
++permissions/read_input_state=false
++permissions/read_logs=false
++permissions/read_phone_state=false
++permissions/read_profile=false
++permissions/read_sms=false
++permissions/read_social_stream=false
++permissions/read_sync_settings=false
++permissions/read_sync_stats=false
++permissions/read_user_dictionary=false
++permissions/reboot=false
++permissions/receive_boot_completed=false
++permissions/receive_mms=false
++permissions/receive_sms=false
++permissions/receive_wap_push=false
++permissions/record_audio=false
++permissions/reorder_tasks=false
++permissions/restart_packages=false
++permissions/send_respond_via_message=false
++permissions/send_sms=false
++permissions/set_activity_watcher=false
++permissions/set_alarm=false
++permissions/set_always_finish=false
++permissions/set_animation_scale=false
++permissions/set_debug_app=false
++permissions/set_orientation=false
++permissions/set_pointer_speed=false
++permissions/set_preferred_applications=false
++permissions/set_process_limit=false
++permissions/set_time=false
++permissions/set_time_zone=false
++permissions/set_wallpaper=false
++permissions/set_wallpaper_hints=false
++permissions/signal_persistent_processes=false
++permissions/status_bar=false
++permissions/subscribed_feeds_read=false
++permissions/subscribed_feeds_write=false
++permissions/system_alert_window=false
++permissions/transmit_ir=false
++permissions/uninstall_shortcut=false
++permissions/update_device_stats=false
++permissions/use_credentials=false
++permissions/use_sip=false
++permissions/vibrate=false
++permissions/wake_lock=false
++permissions/write_apn_settings=false
++permissions/write_calendar=false
++permissions/write_call_log=false
++permissions/write_contacts=false
++permissions/write_external_storage=false
++permissions/write_gservices=false
++permissions/write_history_bookmarks=false
++permissions/write_profile=false
++permissions/write_secure_settings=false
++permissions/write_settings=false
++permissions/write_sms=false
++permissions/write_social_stream=false
++permissions/write_sync_settings=false
++permissions/write_user_dictionary=false
+diff --git a/icon.png b/icon.png
+new file mode 100755
+index 0000000..e032a97
+Binary files /dev/null and b/icon.png differ
+diff --git a/icon.png.import b/icon.png.import
+new file mode 100755
+index 0000000..96cbf46
+--- /dev/null
++++ b/icon.png.import
+@@ -0,0 +1,34 @@
++[remap]
++
++importer="texture"
++type="StreamTexture"
++path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
++metadata={
++"vram_texture": false
++}
++
++[deps]
++
++source_file="res://icon.png"
++dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
++
++[params]
++
++compress/mode=0
++compress/lossy_quality=0.7
++compress/hdr_mode=0
++compress/bptc_ldr=0
++compress/normal_map=0
++flags/repeat=0
++flags/filter=true
++flags/mipmaps=false
++flags/anisotropic=false
++flags/srgb=2
++process/fix_alpha_border=true
++process/premult_alpha=false
++process/HDR_as_SRGB=false
++process/invert_color=false
++stream=false
++size_limit=0
++detect_3d=true
++svg/scale=1.0
+diff --git a/project.godot b/project.godot
+new file mode 100644
+index 0000000..fa19e1a
+--- /dev/null
++++ b/project.godot
+@@ -0,0 +1,52 @@
++; Engine configuration file.
++; It's best edited using the editor UI and not directly,
++; since the parameters that go here are not all obvious.
++;
++; Format:
++;   [section] ; section goes between []
++;   param=value ; assign values to parameters
++
++config_version=4
++
++_global_script_classes=[  ]
++_global_script_class_icons={
++
++}
++
++[application]
++
++config/name="The_Due_of_Eras"
++run/main_scene="res://b1.tscn"
++boot_splash/fullsize=false
++boot_splash/use_filter=false
++boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
++config/icon="res://icon.png"
++boot_splash/show_image=false
++
++[display]
++
++window/size/width=2400
++window/size/height=1080
++window/size/fullscreen=true
++window/vsync/use_vsync=false
++window/handheld/orientation="sensor_landscape"
++window/ios/hide_home_indicator=false
++window/stretch/mode="2d"
++window/stretch/aspect="keep"
++window/ios/allow_high_refresh_rate=false
++window/ios/hide_status_bar=false
++window/ios/suppress_ui_gesture=false
++
++[gui]
++
++common/drop_mouse_on_gui_input_disabled=true
++
++[physics]
++
++common/enable_pause_aware_picking=true
++
++[rendering]
++
++quality/driver/driver_name="GLES2"
++vram_compression/import_etc=true
++vram_compression/import_etc2=false
+diff --git a/push.sh b/push.sh
+new file mode 100644
+index 0000000..2b305b4
+--- /dev/null
++++ b/push.sh
+@@ -0,0 +1,8 @@
++# 由于含有大量二进制文件，所以我们使用特殊的机制push
++
++rm -rf .git
++git init
++git add -A
++git commit -m "Initial commit"
++git push https://gitee.com/t1c/The_Due_of_Eras.git --delete master
++git push -f https://gitee.com/t1c/The_Due_of_Eras.git master
+diff --git a/ziti/Alibaba-PuHuiTi-Regular.ttf b/ziti/Alibaba-PuHuiTi-Regular.ttf
+new file mode 100755
+index 0000000..9f8ab8d
+Binary files /dev/null and b/ziti/Alibaba-PuHuiTi-Regular.ttf differ
+diff --git a/ziti/button_font.tres b/ziti/button_font.tres
+new file mode 100755
+index 0000000..45b74cb
+--- /dev/null
++++ b/ziti/button_font.tres
+@@ -0,0 +1,11 @@
++[gd_resource type="DynamicFont" load_steps=2 format=2]
++
++[ext_resource path="res://ziti/Alibaba-PuHuiTi-Bold.ttf" type="DynamicFontData" id=1]
++
++[resource]
++size = 40
++extra_spacing_top = 2
++extra_spacing_bottom = 2
++extra_spacing_char = 2
++extra_spacing_space = 2
++font_data = ExtResource( 1 )
+diff --git a/ziti/wenbenkuang.tres b/ziti/wenbenkuang.tres
+new file mode 100755
+index 0000000..5c7d2ef
+--- /dev/null
++++ b/ziti/wenbenkuang.tres
+@@ -0,0 +1,14 @@
++[gd_resource type="DynamicFont" load_steps=2 format=2]
++
++[ext_resource path="res://ziti/Alibaba-PuHuiTi-Light.ttf" type="DynamicFontData" id=1]
++
++[resource]
++size = 70
++outline_size = 1
++use_mipmaps = true
++use_filter = true
++extra_spacing_top = 5
++extra_spacing_bottom = 5
++extra_spacing_char = 2
++extra_spacing_space = 1
++font_data = ExtResource( 1 )

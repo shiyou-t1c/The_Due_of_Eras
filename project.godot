@@ -1,0 +1,52 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="The_Due_of_Eras"
+run/main_scene="res://b1.tscn"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
+config/icon="res://icon.png"
+boot_splash/show_image=false
+
+[display]
+
+window/size/width=2400
+window/size/height=1080
+window/size/fullscreen=true
+window/vsync/use_vsync=false
+window/handheld/orientation="sensor_landscape"
+window/ios/hide_home_indicator=false
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+window/ios/allow_high_refresh_rate=false
+window/ios/hide_status_bar=false
+window/ios/suppress_ui_gesture=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
