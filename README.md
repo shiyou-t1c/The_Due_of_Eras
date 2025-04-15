@@ -33,6 +33,12 @@ SOFTWARE.
 
 Development Guide:
 
+You need to understand the current urgent needs, which are the current work tasks. We release tasks in the form of meetings through Microsoft Teams communities. If someone wants to take responsibility, they can claim the task, just like picking up a quest in a guild in a game. You can join the community via the following link:
+
+
+https://teams.live.com/l/community/FEAwT0gP3U1us8cPgI
+
+
 Download the Godot 3.2.2 fork project and clone the forked repository.
 Create a new branch and develop on this branch.
 Commit your code and submit a pull request for this branch.
@@ -61,11 +67,6 @@ The empire of another world is blessed with abundant natural resources and thriv
 ### Requirements for Background
 
 Artists may include their signature (artist name and artwork title) and date (completion date) in the corner of the image. However, these markings must not occupy too much space within the frame.All images must be clear with no obvious blurring, stretching, compression, black edges, white edges, etc.The background image must have a resolution of 1920*1080.Include attribution if using third-party assets.Third-party materials may involve copyright issues and are not recommended for use. It's best to obtain a license that allows free commercial use.）
-
-
-Currently required images: None yet, pending script development.
-
-
 
 ### Requirements for Audio
 
