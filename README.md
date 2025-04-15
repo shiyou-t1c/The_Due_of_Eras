@@ -40,10 +40,13 @@ Commit your code and submit a pull request for this branch.
 The project consists of only one script, "b1.gd." Reading this script will give you a general understanding of the entire program.
 The script primarily reads content from the "b1p/b1.tres" file:
 
-Lines starting with # play a sound.
-Lines starting with $ change the background.
-Lines starting with ? provide choice buttons.
-Lines starting with & jump to another branch (if empty, continue the current branch).
+1.Lines starting with # play a sound.
+
+2.Lines starting with $ change the background.
+
+3.Lines starting with ? provide choice buttons.
+
+4.Lines starting with & jump to another branch (if empty, continue the current branch).
 
 
 
