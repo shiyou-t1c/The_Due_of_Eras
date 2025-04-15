@@ -1,5 +1,3 @@
-Here's the translation maintaining the original format:
-
 # The_Duel_of_Eras
 
 #### Introduction  
@@ -37,3 +35,7 @@ SOFTWARE.
 2. Create a new Feat_xxx branch  
 3. Commit your code  
 4. Create a Pull Request
+
+Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. However, once the product is comparable to commercial products, we will need to build a fan base in the market. For sequels, we will switch to closed-source development and generate some income to sustain the project.
+
+We don’t have strict working hours, and all decisions are made through voting. Therefore, everyone can contribute code easily without too much pressure. Even if you’re not a professional, you can still provide suggestions for the storyline.
