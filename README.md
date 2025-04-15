@@ -39,3 +39,7 @@ SOFTWARE.
 Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. However, once the product is comparable to commercial products, we will need to build a fan base in the market. For sequels, we will switch to closed-source development and generate some income to sustain the project.
 
 We don’t have strict working hours, and all decisions are made through voting. Therefore, everyone can contribute code easily without too much pressure. Even if you’re not a professional, you can still provide suggestions for the storyline.
+
+### Plot summary
+
+The empire of another world is blessed with abundant natural resources and thriving agriculture. The ruling class of the kingdom consists of old nobility, whose families have controlled most of the land and political power for generations. However, with the rise of overseas trade and the emergence of capitalism, a new merchant class and landed gentry have begun to ascend, eager to gain greater political influence and economic privileges. As a rising merchant, you participate in this era of profound societal change. 
