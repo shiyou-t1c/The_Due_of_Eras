@@ -117,18 +117,26 @@ func load_text_file_p(file_path):
 		print("文件不存在: ", file_path) 
 
 func _input(event):
-	if is_transitioning: return
-	if is_showing_buttons: return
-
-	if exit_button and event is InputEventMouseButton and event.button_index   == BUTTON_LEFT and event.pressed:  
-		var button_rect = Rect2(exit_button.rect_position,   exit_button.rect_min_size)  
-		if button_rect.has_point(event.position):  
-			_on_exit_button_pressed()
-			return
-
-	if event is InputEventScreenTouch and event.pressed   or \
-	   event is InputEventMouseButton and event.button_index   == BUTTON_LEFT and event.pressed:  
+	# 优先处理退出按钮的触摸/点击 
+	if exit_button and (
+		(event is InputEventScreenTouch and event.pressed  and 
+		 exit_button.get_global_rect().has_point(event.position))  or 
+		(event is InputEventMouseButton and event.pressed  and 
+		 exit_button.get_global_rect().has_point(event.position)) 
+	):
+		_on_exit_button_pressed()
+		get_tree().set_input_as_handled()  # 关键：阻止事件继续传播 
+		return 
+ 
+	# 阻止其他操作在过渡期间执行 
+	if is_transitioning || is_showing_buttons: 
+		return 
+ 
+	# 处理常规点击 
+	if (event is InputEventScreenTouch && event.pressed)  || \
+	   (event is InputEventMouseButton && event.pressed  && event.button_index  == BUTTON_LEFT):
 		show_next_text_segment()
+		get_tree().set_input_as_handled()
 
 func create_decision_buttons(options, paths):
 	if label_node:
