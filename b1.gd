@@ -51,6 +51,18 @@ func load_progress():
 	return false
 
 func _ready():
+	var screen_size = OS.get_screen_size() 
+	var aspect_ratio = float(screen_size.x) / float(screen_size.y)
+	if aspect_ratio <= 1.8 && aspect_ratio > 1.4:
+		print("16:9")
+		OS.set_window_size(Vector2(2400,1350))
+	if aspect_ratio >= 1.8:
+		print("21:9")
+		OS.set_window_size(Vector2(2400,1080))
+	if aspect_ratio <= 1.4:
+		print("4:3")
+		OS.set_window_size(Vector2(2400,1800))
+
 	add_child(tween)
 	audio_player.volume_db   = -10
 	bg_texture_rect.modulate   = Color(1, 0.95, 0.9, 1)
