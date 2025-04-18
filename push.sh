@@ -1,3 +1,4 @@
+rm -rf .import
 find . -type f -name "*.import" -delete
 git add -A
 git commit
