@@ -151,46 +151,51 @@ func _input(event):
 		get_tree().set_input_as_handled()
 
 func create_decision_buttons(options, paths):
-	if label_node:
-		label_node.queue_free()  
-		label_node = null
+	# 清理旧的按钮滚动容器
+	for child in $Control.get_children():
+		if child is ScrollContainer:
+			child.queue_free()
 
-	for child in button_container.get_children():  
-		child.queue_free()  
+	# 创建新的按钮容器
+	button_container = HBoxContainer.new()
+	button_container.name = "ButtonContainer"
+	button_container.rect_min_size = Vector2(600, 120)
+	button_container.rect_position = Vector2(50, 350)
+	button_container.set("custom_constants/separation", 20)
 
-	var style = StyleBoxFlat.new()  
-	style.bg_color   = Color(0.5, 0.5, 0.5, 0.7)
-	style.set_border_width_all(2)  
-	style.border_color   = Color(0.9, 0.9, 0.9)
-	style.set_corner_radius_all(8)  
-	style.content_margin_left   = 10
-	style.content_margin_right   = 10
-	style.content_margin_top   = 10
-	style.content_margin_bottom   = 10
+	var style = StyleBoxFlat.new()
+	style.bg_color = Color(0.5, 0.5, 0.5, 0.7)
+	style.set_border_width_all(2)
+	style.border_color = Color(0.9, 0.9, 0.9)
+	style.set_corner_radius_all(8)
+	style.content_margin_left = 10
+	style.content_margin_right = 10
+	style.content_margin_top = 10
+	style.content_margin_bottom = 10
 
-	var font = DynamicFont.new()  
-	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")  
-	font.size   = 70
+	var font = DynamicFont.new()
+	font.font_data = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")
+	font.size = 70
 
-	for i in range(options.size()):  
-		var button = Button.new()  
-		button.text   = options[i]
-		button.clip_text   = false
-		button.align   = Button.ALIGN_LEFT
-		button.add_font_override("font",   font)
-		button.rect_min_size   = Vector2(clamp(font.get_string_size(options[i]).x   + 40, 300, 600), 100)
-		button.size_flags_horizontal   = Control.SIZE_EXPAND_FILL
-		button.add_stylebox_override("normal",   style)
-		var target_path = paths[i] if i < paths.size()   else ""
-		button.connect("pressed",   self, "_on_option_selected", [target_path])
-		button_container.add_child(button)  
+	for i in range(options.size()):
+		var button = Button.new()
+		button.text = options[i]
+		button.clip_text = false
+		button.align = Button.ALIGN_LEFT
+		button.add_font_override("font", font)
+		button.rect_min_size = Vector2(clamp(font.get_string_size(options[i]).x + 40, 300, 600), 100)
+		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		button.add_stylebox_override("normal", style)
+		var target_path = paths[i] if i < paths.size() else ""
+		button.connect("pressed", self, "_on_option_selected", [target_path])
+		button_container.add_child(button)
 
-	var btn_scroll = ScrollContainer.new()  
-	btn_scroll.rect_min_size   = Vector2(2000, 400)
-	btn_scroll.rect_position   = Vector2(50, 500)
-	$Control.remove_child(button_container)  
-	btn_scroll.add_child(button_container)  
-	$Control.add_child(btn_scroll)  
+	# 创建新的滚动容器并添加按钮容器
+	var btn_scroll = ScrollContainer.new()
+	btn_scroll.rect_min_size = Vector2(2000, 400)
+	btn_scroll.rect_position = Vector2(50, 500)
+	btn_scroll.add_child(button_container)
+	$Control.add_child(btn_scroll)
 
 func parse_and_display_segment(segment):
 	if not label_node:
@@ -323,10 +328,13 @@ func _on_exit_button_pressed():
 
 func _on_option_selected(target_path):
 	is_showing_buttons = false
-	for child in button_container.get_children():  
-		child.queue_free()  
+	
+	# 清理所有按钮滚动容器
+	for child in $Control.get_children():
+		if child is ScrollContainer:
+			child.queue_free()
 
 	if target_path != "":
-		load_text_file(target_path)  # 此处已包含显示逻辑
+		load_text_file(target_path)
 	else:
 		show_next_text_segment()

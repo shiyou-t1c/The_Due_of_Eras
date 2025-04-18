@@ -1,13 +1,20 @@
 
+	start game
+
+? 中文
+&res://b1p/b1c.tres
+? English
+&
+
 Act One: Crimson Twilight - Parliament Hall
 #res://b1p/a1.wav
 
 The faint scent of leather and old pages filled the study.
 
-$res://b1p/p2.jpg
+$res://b1p/p2.png
 Butler: The affairs of the House of Lords still require your presence.
 
-$res://b1p/p3.jpg
+$res://b1p/p3.png
 The secretary of the Upper House gracefully entered the study, quietly approached you, and respectfully bowed.
 
 Secretary of the Upper House: I hope to escort you to the nearest carriage; the meeting is about to begin.
@@ -24,5 +31,3 @@ The carriage began to move, its wheels emitting a soft clatter against the cobbl
 
 $res://b1p/b4.jpg
 At dusk, the sky was painted with soft hues of orange and purple.
-
-Further development is pending.
