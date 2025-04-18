@@ -1,0 +1,49 @@
+
+Act One: Crimson Twilight - Parliament Hall
+#res://b1p/sound_effects/b1_1a1.wav
+
+The faint scent of leather and old pages filled the study.
+
+$res://b1p/picture/b1_1p1.png
+Butler: The affairs of the House of Lords still require your presence.
+
+$res://b1p/picture/b1_1p2.png
+The secretary of the Upper House gracefully entered the study, quietly approached you, and respectfully bowed.
+
+Secretary of the Upper House: I hope to escort you to the nearest carriage; the meeting is about to begin.
+
+? I won't attend the meeting.
+&res://b1p/script/english/b1_1_1english.tres
+? I will attend the meeting.
+&
+
+$res://b1p/picture/b1_1p3.jpg
+The carriage is parked at the foot of the stone stairs in front of the mansion, drawn by sturdy white horses, with the body adorned with intricate carvings.
+
+I entered the carriage with the House of Lords Secretary.
+
+The carriage began to move, its wheels emitting a soft clatter against the cobblestone road.
+
+I pondered, furrowed my brow, and my gaze settled on the secretary, my tone laced with a hint of doubt and unease: Why the sudden need for a meeting?
+
+The House of Lords Secretary, avoiding direct eye contact with me while adjusting his gloves, said: "A blade poised to tear the kingdom apart. But whose hand grips the hilt?"
+
+I produced a small bag of gold coins and placed it on the secretary's lap, whispering, "Who ordered you to tell me this?"
+
+The secretary refused my bribe, so I withdrew the gold coins. He then added, "The Prime Minister wishes to discuss matters with you in private first."
+
+I hesitated for a moment, in no hurry to respond.
+
+Seeing my continued hesitation, the secretary added: "I believe this meeting will bring greater benefits to the Chamber."
+
+?I'll go meet the Prime Minister
+&res://b1p/script/chinese/b1_1_2english.tres
+?I'll attend the meeting directly instead of seeing the Prime Minister
+&
+
+Me: "Am I standing where the blade is pointing?"
+
+House of Lords Secretary: "The blade always points in one direction—power."
+
+$res://b1p/picture/b1_1p4_and_b1_1_1p1.jpg
+At dusk, the sky was painted with soft hues of orange and purple.

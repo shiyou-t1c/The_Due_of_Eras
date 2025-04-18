@@ -92,6 +92,13 @@ Metadata:
 
 The improvements to the program and the storyline mainly involve modifying the b1.gd and b1p/b1.tres files. If you have any suggestions, you can help us by submitting issues or pull requests.
 
+### Branch Naming Rules
+
+Here we are discussing narrative branches, not Git repository branches. Specifically, the naming rules for branch files such as "b1.tres". The key principle is that all branches share "b1.tres" as their parent branch. "b1.tres" serves as the entry point for the entire game. Branches within the "b1.tres" file will be named as "b1_1.tres", "b1_2.tres", etc., indicating their status as child branches of "b1.tres". Similarly, branches within the "b1_1.tres" file will be named "b1_1_1.tres", "b1_1_2.tres", and so forth.
+
+For different language versions, the filename must include a language identifier. For example, Chinese versions should be labeled as "b1chinese.tres" or "b1_1_1chinese.tres", and these files should be placed in corresponding directories for their respective languages.
+
+Images need to be placed in the "picture" folder, named by appending "p" and a number directly after the current branch name. For example, in the branch file "b1_1english.tres", since images are language-agnostic, we omit the language identifier. Thus, they should be named like "b1_1p1.png", "b1_1p2.png". If an image is reused across branches, name it as "b1_1p4_and_b1_1_1p1.jpg". Audio files should be placed in the "sound_effects" folder, named by appending "a" and a number directly after the current branch name. Since audio may be language-dependent, we retain the language identifier. For example, "b1_1chinese_a1.wav". For language-agnostic audio, name them like "b1_1a1.wav".If an audio file is reused, it should be named like "b1_1chinese_a1_and_b1_1_1a1.wav".
 
 ### contact and networks
 
