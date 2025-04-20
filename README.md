@@ -129,6 +129,8 @@ We have open-sourced the project on three platforms:
 Among these:
 - Gitee offers faster access speeds within China.
 - GitHub provides better performance in Europe and the Americas.
-- SourceForge has global server nodes.(read-only)
+- SourceForge has global server nodes.
 
-On SourceForge, projects imported from GitHub are by default set up as read-only mirror repositories. This means that updates from the source project are automatically synchronized to SourceForge, but it is not possible to directly modify or submit code on SourceForge. Currently, we are primarily developing on GitHub and Gitee, and we still need to conduct various experiments to test the stability of both platforms.
+Each code repository is a main repository, so before synchronizing the code, ensure to pull the latest changes from every repository and perform a merge.The process is similar to what is described in "push.sh", but you need to modify it based on your specific scenario. While I use the SSH protocol, you should configure your own asymmetric keys to achieve the same purpose.
+
+The reason we do not provide pre-compiled binary executable files is because the laws regarding games vary by country, and distributing binary executable files may violate legal regulations.
