@@ -84,7 +84,7 @@ Content:
 
 
 Metadata:
-    Label files clearly (e.g., SFX_DoorKnock_01.wav).
+    Label files clearly (e.g., b1_1a1.wav).
     Include attribution if using third-party assets.（Third-party materials may involve copyright issues and are not recommended for use. It's best to record your own audio or obtain a license that allows free commercial use.）
 
 
@@ -98,7 +98,7 @@ Here we are discussing narrative branches, not Git repository branches. Specific
 
 For different language versions, the filename must include a language identifier. For example, Chinese versions should be labeled as "b1chinese.tres" or "b1_1_1chinese.tres", and these files should be placed in corresponding directories for their respective languages.
 
-Images need to be placed in the "picture" folder, named by appending "p" and a number directly after the current branch name. For example, in the branch file "b1_1english.tres", since images are language-agnostic, we omit the language identifier. Thus, they should be named like "b1_1p1.png", "b1_1p2.png". If an image is reused across branches, name it as "b1_1p4_and_b1_1_1p1.jpg". Audio files should be placed in the "sound_effects" folder, named by appending "a" and a number directly after the current branch name. Since audio may be language-dependent, we retain the language identifier. For example, "b1_1chinese_a1.wav". For language-agnostic audio, name them like "b1_1a1.wav".If an audio file is reused, it should be named like "b1_1chinese_a1_and_b1_1_1a1.wav".
+Images need to be placed in the "picture" folder, named by appending "p" and a number directly after the current branch name. For example, in the branch file "b1_1english.tres", since images are language-agnostic, we omit the language identifier. Thus, they should be named like "b1_1p1.png", "b1_1p2.png". If an image is reused across branches, name it as "b1_1p4_and_b1_1_1p1.jpg". Audio files should be placed in the "sound_effects" folder, named by appending "a" and a number directly after the current branch name. Since audio may be language-dependent, we retain the language identifier. For example, "b1_1chinese_a1.wav". For language-agnostic audio, name them like "b1_1a1.wav".If an audio file is reused, it should be named like "b1_1a1_and_b1_1_1a1.wav".
 
 ### Contact and Networks
 
