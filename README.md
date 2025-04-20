@@ -129,6 +129,6 @@ We have open-sourced the project on three platforms:
 Among these:
 - Gitee offers faster access speeds within China.
 - GitHub provides better performance in Europe and the Americas.
-- SourceForge has global server nodes.
+- SourceForge has global server nodes.(read-only)
 
-Currently, we designate SourceForge as the primary development repository. Updates to the Gitee and GitHub repositories may lag behind SourceForge.
+On SourceForge, projects imported from GitHub are by default set up as read-only mirror repositories. This means that updates from the source project are automatically synchronized to SourceForge, but it is not possible to directly modify or submit code on SourceForge. Currently, we are primarily developing on GitHub and Gitee, and we still need to conduct various experiments to test the stability of both platforms.
