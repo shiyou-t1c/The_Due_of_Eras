@@ -100,9 +100,35 @@ For different language versions, the filename must include a language identifier
 
 Images need to be placed in the "picture" folder, named by appending "p" and a number directly after the current branch name. For example, in the branch file "b1_1english.tres", since images are language-agnostic, we omit the language identifier. Thus, they should be named like "b1_1p1.png", "b1_1p2.png". If an image is reused across branches, name it as "b1_1p4_and_b1_1_1p1.jpg". Audio files should be placed in the "sound_effects" folder, named by appending "a" and a number directly after the current branch name. Since audio may be language-dependent, we retain the language identifier. For example, "b1_1chinese_a1.wav". For language-agnostic audio, name them like "b1_1a1.wav".If an audio file is reused, it should be named like "b1_1chinese_a1_and_b1_1_1a1.wav".
 
-### contact and networks
+### Contact and Networks
 
 Although email is a convenient way to contact us, we also provide an online community for discussions and Q&A. We use Microsoft Teams—here’s the invitation link:
 
 
 https://teams.live.com/l/community/FEAwT0gP3U1us8cPgI
+
+### Regarding the Handling of Binary Files
+
+In the software development process, binary files (such as images, videos, compiled executable files, etc.) are often an indispensable part of the project. However, these files are usually large in size, and storing them directly in the version control system may cause the warehouse to expand in size, affecting performance. Therefore, it is crucial to manage binary files reasonably.
+
+At present, our project team has not found a solution to this problem. I hope to receive some suggestions.
+
+### Regarding the issue of internationalization
+
+The code repository of the project may have slow server speed due to distance, regardless of where it is posted.
+
+We have open-sourced the project on three platforms:
+
+1. https://sourceforge.net/p/the-due-of-eras/code/ci/master/tree/
+
+2. https://github.com/shiyou-t1c/The_Due_of_Eras
+
+3. https://gitee.com/t1c/The_Due_of_Eras
+
+
+Among these:
+- Gitee offers faster access speeds within China.
+- GitHub provides better performance in Europe and the Americas.
+- SourceForge has global server nodes.
+
+Currently, we designate SourceForge as the primary development repository. Updates to the Gitee and GitHub repositories may lag behind SourceForge.
