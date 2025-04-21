@@ -1,7 +1,10 @@
 # The_Duel_of_Eras
 
-#### Introduction  
-The Duel of Eras  
+#### Introduction
+ 
+shiyou(t1c):
+
+The most astonishing aspect of this code lies in its ability to implement complex branching story systems and multilingual support without requiring programming expertise. Equally remarkable is its minimal hardware resource consumption, significantly lower than most galgame products currently on the market. To expedite the project’s progress, I estimate the need for a team of at least 100 members. This scale is essential due to my vision of creating hundreds of story branches, each with substantial narrative depth. In terms of programming skills and narrative design capabilities, I am likely no more advanced than you, the reader. As an ordinary office worker constrained by survival pressures, I deeply empathize with the preciousness of time—whether you are a student or someone trapped in the grueling 9-9-6 work cycle. I hope we can approach this project as a creative sanctuary and a social hub, rather than a mandatory labor. I solemnly pledge that one day in the future, when you share this endeavor with loved ones, it will stand as a radiant chapter of pride in your life’s journey.
 
 #### Software Architecture  
 Developed with Godot 3.2.2, using OpenGL ES 2.0.  
