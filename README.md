@@ -9,6 +9,12 @@ The most astonishing aspect of this code lies in its ability to implement comple
 #### Software Architecture  
 Developed with Godot 3.2.2, using OpenGL ES 2.0.  
 
+Download Godot 3.2.2 stable :
+
+https://godotengine.org/download/archive/3.2.2-stable/
+
+If you only want to develop games and do not need to export your project as a binary executable file, you can choose not to download the "Export Templates".
+
 #### Open Source License  
 MIT License:  
 
