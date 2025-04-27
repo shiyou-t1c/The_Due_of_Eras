@@ -63,8 +63,15 @@ The script primarily reads content from the "b1p/b1.tres" file:
 
 4.Lines starting with & jump to another branch (if empty, continue the current branch).
 
-
-
+When developing via Git branches, for example, if you want to create a branch for the "b1_1_2" storyline, you can run `git branch b1_1_2`. This command creates a new branch but does not switch to it. To switch to the branch, execute `git checkout b1_1_2`, which moves the HEAD pointer to the latest commit on the `b1_1_2` branch.  
+ 
+After completing development, switch back to the `master` branch with `git checkout master`, then merge the `b1_1_2` branch using `git merge b1_1_2`. Occasionally, conflicts may arise during merging—for instance, if someone modified the same part of a file in the `master` branch while you were working on `b1_1_2`. To resolve this:  
+1. Use `git status` to identify conflicting files.  
+2. Open the files and manually resolve the conflicts by either retaining changes from one branch or editing the conflicting sections.  
+3. Re-run `git merge` after resolving conflicts.  
+ 
+Once the `b1_1_2` branch has been successfully merged into `master`, delete it with `git branch -d b1_1_2`.  
+ 
 Currently, we need programmers familiar with the Godot 3.x engine, artists, sound designers, scriptwriters, and music producers. Of course, we are currently unable to pay any salaries. 
 
 We don’t have strict working hours, and all decisions are made through voting. Therefore, everyone can contribute code easily without too much pressure. Even if you’re not a professional, you can still provide suggestions for the storyline.
