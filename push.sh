@@ -46,6 +46,8 @@ find . -type f -name "*.import" -delete
 git add -A
 git commit
 
-git push --all git@gitee.com:t1c/The_Due_of_Eras.git
-git push --all git@github.com:shiyou-t1c/The_Due_of_Eras.git
-git push --all ssh://t1c@git.code.sf.net/p/the-due-of-eras/code
+# 使用循环推送所有分支到各远程仓库
+for repo_url in "${remote_repos[@]}"; do
+    echo "正在推送更改到远程仓库: $repo_url"
+    git push --all "$repo_url"
+done
