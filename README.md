@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2025 shiyou and all contributors
+
+SPDX-License-Identifier: MIT
+-->
+
 # The_Duel_of_Eras
 
 #### Introduction

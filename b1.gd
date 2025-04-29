@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 shiyou and all contributors
+#
+# SPDX-License-Identifier: MIT
+
 extends Node2D
 
 onready var bg_texture_rect = $Control/background

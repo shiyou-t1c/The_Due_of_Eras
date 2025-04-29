@@ -1,2 +1,6 @@
+# SPDX-FileCopyrightText: 2025 shiyou and all contributors
+#
+# SPDX-License-Identifier: MIT
+
 # Normalize line endings for all files that Git considers text files.
 * text=auto eol=lf

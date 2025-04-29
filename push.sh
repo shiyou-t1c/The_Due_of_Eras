@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2025 shiyou and all contributors
+#
+# SPDX-License-Identifier: MIT
+
 set -e  # 任何命令失败则退出脚本
 
 rm -rf .import
