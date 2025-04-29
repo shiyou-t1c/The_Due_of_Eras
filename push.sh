@@ -1,12 +1,14 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: 2025 shiyou and all contributors
+# SPDX-FileCopyrightText: 2025 all contributors
+# SPDX-FileCopyrightText: 2025 shiyou(t1c)
 #
 # SPDX-License-Identifier: MIT
 
 set -e  # 任何命令失败则退出脚本
 
 rm -rf .import
+rm -rf default_env.tres.tmp
 find . -type f -name "*.import" -delete
 
 # 配置远程仓库地址
@@ -47,6 +49,7 @@ echo "所有仓库分支已同步完成！"
 
 rm -rf .import
 find . -type f -name "*.import" -delete
+rm -rf default_env.tres.tmp
 
 git add -A
 git commit

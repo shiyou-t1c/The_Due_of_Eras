@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2025 shiyou and all contributors
+# SPDX-FileCopyrightText: 2025 shiyou(t1c) and all contributors
 #
 # SPDX-License-Identifier: MIT
 
@@ -39,3 +39,4 @@
 .vscode
 .import/
 *.import
+default_env.tres.tmp
