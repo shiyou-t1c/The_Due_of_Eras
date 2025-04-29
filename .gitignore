@@ -33,5 +33,5 @@
 # other
 .sconsign.dblite
 .vscode
-.import
+.import/
 *.import
