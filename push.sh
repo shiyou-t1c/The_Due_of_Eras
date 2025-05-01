@@ -51,11 +51,29 @@ rm -rf .import
 find . -type f -name "*.import" -delete
 rm -rf default_env.tres.tmp
 
+# 提交master分支
+git checkout master
 git add -A
-git commit
+if ! git commit -m "提交更改到master分支"; then
+    echo "master分支无更改可提交"
+fi
 
-# 使用循环推送所有分支到各远程仓库
+# 合并master到其他分支
+for branch in $(git branch --list | grep -v ' master$' | sed 's/^* //'); do
+    echo "合并master到分支 $branch"
+    git checkout "$branch"
+    git merge master --no-ff -m "合并master分支到$branch"
+    git add -A
+    if ! git commit -m "合并后的提交"; then
+        echo "无更改需要提交"
+    fi
+done
+
+# 推送所有分支到各个远程仓库
 for repo_url in "${remote_repos[@]}"; do
-    echo "正在推送更改到远程仓库: $repo_url"
-    git push --all "$repo_url"
+    echo "正在推送分支到远程仓库: $repo_url"
+    for branch in $(git branch --list | sed 's/^* //'); do
+        echo "推送分支 $branch"
+        git push "$repo_url" "$branch:$branch"
+    done
 done
