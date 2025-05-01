@@ -6,4 +6,6 @@ start game
 &res://b1p/script/chinese/b1_1chinese.tres
 ? English
 &res://b1p/script/english/b1_1english.tres
+? 日本語
+&res://b1p/script/japanese/b1_1japanese.tres
 
