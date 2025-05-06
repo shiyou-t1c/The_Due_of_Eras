@@ -40,3 +40,4 @@
 .import/
 *.import
 default_env.tres.tmp
+export_presets.cfg

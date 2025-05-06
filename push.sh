@@ -77,3 +77,6 @@ for repo_url in "${remote_repos[@]}"; do
         git push "$repo_url" "$branch:$branch"
     done
 done
+
+git checkout master
+git branch
