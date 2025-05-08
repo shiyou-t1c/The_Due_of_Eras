@@ -7,6 +7,7 @@
 
 set -e  # 任何命令失败则退出脚本
 
+# 清理临时文件
 rm -rf .import
 rm -rf default_env.tres.tmp
 find . -type f -name "*.import" -delete
@@ -33,20 +34,26 @@ for repo_url in "${remote_repos[@]}"; do
 
     # 遍历分支并拉取
     for branch in $remote_branches; do
-        echo "  → 拉取分支: $branch"
+        echo "  → 处理分支: $branch"
 
-        # 本地分支存在时直接拉取，否则创建并跟踪
+        # 检查本地是否存在同名分支
         if git show-ref --quiet --verify "refs/heads/${branch}"; then
+            # 本地分支存在：直接检出并拉取更新
+            git checkout -q "$branch"
             git pull "$repo_url" "$branch"
         else
+            # 本地分支不存在：创建并跟踪远程分支
             git fetch "$repo_url" "$branch:$branch"
             git checkout -q "$branch"
+            # 设置上游分支
+            git branch -u "$repo_url/$branch"
         fi
     done
 done
 
 echo "所有仓库分支已同步完成！"
 
+# 再次清理临时文件
 rm -rf .import
 find . -type f -name "*.import" -delete
 rm -rf default_env.tres.tmp
@@ -78,5 +85,6 @@ for repo_url in "${remote_repos[@]}"; do
     done
 done
 
+# 最后切换回master分支并显示分支列表
 git checkout master
 git branch
