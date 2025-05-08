@@ -179,7 +179,7 @@ func create_decision_buttons(options, paths):
 
 	var font = DynamicFont.new()
 	font.font_data = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")
-	font.size = 70
+	font.size = 60
 
 	for i in range(options.size()):
 		var button = Button.new()
@@ -301,7 +301,7 @@ func create_label():
 
 	var font = DynamicFont.new()
 	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")
-	font.size   = 75
+	font.size   = 60
 	label_node.add_font_override("font",   font)
 
 	scroll_container.add_child(label_node)
@@ -321,7 +321,7 @@ func create_exit_button():
 
 	var font = DynamicFont.new()
 	font.font_data   = load("res://ziti/Alibaba-PuHuiTi-Regular.ttf")
-	font.size   = 50
+	font.size   = 55
 	exit_button.add_font_override("font",   font)
 
 	exit_button.connect("pressed",   self, "_on_exit_button_pressed")
