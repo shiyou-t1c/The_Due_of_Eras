@@ -10,8 +10,6 @@ Butler: The affairs of the House of Lords still require your presence.
 $res://b1p/picture/b1_1p2.png
 The secretary of the Upper House gracefully entered the study, quietly approached you, and respectfully bowed.
 
-Secretary of the Upper House: I hope to escort you to the nearest carriage; the meeting is about to begin.
-
 ? I won't attend the meeting.
 &res://b1p/script/english/b1_1_1english.tres
 ? I will attend the meeting.
@@ -23,25 +21,280 @@ The carriage is parked at the foot of the stone stairs in front of the mansion, 
 $res://b1p/picture/b1_1p4.png
 I entered the carriage with the House of Lords Secretary.
 
-The carriage began to move, its wheels emitting a soft clatter against the cobblestone road.
+The interior decoration of the carriage is luxurious, with a soft sofa that is very comfortable.
 
-I pondered, furrowed my brow, and my gaze settled on the secretary, my tone laced with a hint of doubt and unease: Why the sudden need for a meeting?
+As the carriage approached the Prime Minister's residence.
 
-The House of Lords Secretary, avoiding direct eye contact with me while adjusting his gloves, said: "A blade poised to tear the kingdom apart. But whose hand grips the hilt?"
+Secretary of the House of Lords: The Prime Minister would like to have a private conversation with you first.
 
-I produced a small bag of gold coins and placed it on the secretary's lap, whispering, "Who ordered you to tell me this?"
+I hesitated for a moment and didn't rush to answer.
 
-The secretary refused my bribe, so I withdrew the gold coins. He then added, "The Prime Minister wishes to discuss matters with you in private first."
-
-I hesitated for a moment, in no hurry to respond.
-
-Seeing my continued hesitation, the secretary added: "I believe this meeting will bring greater benefits to the Chamber."
-
-?I'll go meet the Prime Minister
-&res://b1p/script/chinese/b1_1_2english.tres
-?I'll attend the meeting directly instead of seeing the Prime Minister
+?I'll go meet the Prime Minister.
+&res://b1p/script/english/b1_1_2english.tres
+?I won't go to meet with the Prime Minister.
 &
 
-Me: "Am I standing where the blade is pointing?"
+I am not sure about the background of the Secretary of the House of Lords, so I am not sure which interest group is probing me.
 
-House of Lords Secretary: "The blade always points in one direction—power."
+So I decided to keep silent, I think it's a very safe decision.
+
+I won't make any decisions until I get more information.
+
+The Secretary of the House of Lords did not further inquire, and he may not want to disclose more information.
+
+The carriage did not stop halfway and drove directly into the Parliament Building.
+
+$ res://b1p/picture/b1_1p5.png
+As soon as you enter the parliament hall, the first thing that catches your eye is the towering and magnificent dome.
+
+The walls inside the hall are adorned with precious walnut wall panels.
+
+On the wall panels, there are huge portrait paintings hanging, most of which depict former noble councilors or members of the royal family.
+
+The characters on the canvas are dressed in magnificent costumes, with majestic expressions and a natural sense of superiority and control in their eyes.
+
+A huge crystal chandelier hangs from the ceiling, reflecting a colorful light like stars falling into the mortal world.
+
+The ground is covered with magnificent marble tiles, cleaned as clean as ice.
+
+$ res://b1p/picture/b1_1p6.png
+The parliamentary long table is made of a thick piece of oak, with a smooth surface like a mirror. Wooden chairs are placed around.
+
+A well-dressed noble gentleman came to greet me: Hello, sir. Are you free?
+
+I lifted my head slightly and looked up and down at this unwelcome guest.
+
+He was dressed in a finely tailored black tailcoat.
+
+The collar of the white shirt is washed clean and neat.
+
+A delicate silver lapel pin shimmered with a low-key yet luxurious glow under the light.
+
+His hair was neatly combed back, revealing a broad and smooth forehead.
+
+Deep eyes are like a secluded pool, calm yet mysterious, with a slightly upturned mouth and a polite smile just right.
+
+The whole person exudes an innate nobility and confidence.
+
+?ignore
+&res://b1p/script/english/b1_1_3englsh.tres
+?talk with each other
+&
+
+I reached out my hand and responded with a smile, 'I don't know how to address you?'?
+
+John Cartwright: Below John Cartwright.
+
+His voice is deep and magnetic, like the low notes of a cello.
+
+Me: Nice to meet you! May I ask what you have in mind?
+
+John Cartwright: It's an immense honor to meet you, President, with my own eyes today.
+
+I secretly pondered in my heart the true intentions of this gentleman.
+
+John Cartwright: I greatly admire your influence in the public and your judgment. Perhaps in some aspects, our collaboration can produce greater results.
+
+In this parliament full of power and conspiracy, everyone has their own goals and motivations.
+
+John Cartwright: If you need help or advice, please don't hesitate to contact me.
+
+Me: Mr. John, I highly value your proposal. However, before we further discuss, I would like to know specifically what the help or advice you mentioned refers to?
+
+John Cartwright: Of course, Mr. President. I will arrange a detailed meeting as soon as possible.
+
+I am looking forward to this meeting very much, Mr. John.
+
+John Cartwright did pique my interest, but I couldn't easily believe his words either.
+
+Although very few people are able to participate in the meetings of the House of Lords.
+
+But the people who can participate are all influential figures in business and politics.
+
+These people's decisions can even influence the future of the country.
+
+John Cartwright had multiple fleets that sailed on trade routes around the world.
+
+With the appearance of the speaker, the whole room immediately quieted down, and everyone sat in their own seats.
+
+The speaker tapped on the cover of the code and said, 'According to the 19th amendment of the Emergency Powers Act, this is a closed door meeting. Please leave if you are not involved.'.
+
+The speaker continued, 'Secretary, please also go out. There is no need to record anything.'.
+
+The behavior of the Speaker is undoubtedly illegal, and the expulsion of the Secretary violates Article 8 of the Parliamentary Procedure Law.
+
+A member of parliament suddenly pushed open his chair and stood up: Your Excellency, Speaker! You have no authority to do anything ..
+
+With a loud bang, the words were interrupted by the sound of the door closing.
+
+Speaker: This is the Special Authorization Order signed by the king, which immediately initiates the special review process.
+
+The speaker attempted to use the king's special authorization to override the regular parliamentary procedures.
+
+The atmosphere inside the parliament hall suddenly became tense, and the air seemed to freeze.
+
+The legislators looked at each other in confusion, some furrowed their brows, some whispered, but more were shocked and uneasy.
+
+John Cartwright slowly stood up.
+
+His voice was calm and firm: Your Excellency, as legislators of the country, we should abide by the most basic procedural justice.
+
+At this moment, the door of the parliament hall was pushed open again, and several uniformed guards walked in. They stood at the door, their eyes shining brightly, making the entire room even more oppressive.
+
+John Cartwright: Speaker, do you really think this is the right approach?
+
+Speaker: Do you want to oppose the royal family? This is treason.
+
+?continue to observe
+&res://b1p/script/english/b1_1_4english.tres
+?expressing protest
+&
+
+I stood up and said, 'Speaking of which, no one can guarantee the authenticity of this Special Authorization Order. Such documents can be forged.'.
+
+I did not protest directly, but set up some difficulties to prevent the Speaker's behavior.
+
+The speaker's face darkened as he stared at me with a hint of threat in his voice: Are you questioning the authority of His Majesty the King? Any suspicion is disrespectful to the royal family.
+
+I calmly responded: Your Excellency, I am not questioning His Majesty the King, but questioning the authenticity of this document.
+
+The atmosphere in the chamber instantly dropped to freezing point.
+
+The Speaker's actions clearly exceeded the scope of normal parliamentary procedures.
+
+His finger pointed at me and gave an order to the guard at the door: to ask the senator out of the meeting, as he was clearly not suitable to continue participating in the meeting.
+
+John Cartwright immediately stood up and stood in front of me.
+
+His voice was loud and firm: Your Excellency, if you insist on using force, please remember that this is not a battlefield, but a parliamentary chamber!
+
+The scene instantly plunged into chaos.
+
+At this moment, the guard suddenly moved forward, with a flash of his sword. John Cartwright didn't even have time to defend himself and fell to the cold floor of the Parliament Hall.
+
+Blood quickly soaked his clothes and dyed the surrounding marble floor red. The entire chamber was struck by lightning, and all sounds came to a sudden halt.
+
+Speaker: This is the battlefield, John. Don't think I wouldn't know about your secret help to the southern rebels.
+
+The speaker's gaze swept over me like a blade, with a hint of suspicion and warning.
+
+I immediately stated that Mr. John and I only met today, and I had no idea he had done such a thing.
+
+I secretly feel grateful for my quick response, but at the same time, I also feel deeply guilty.
+
+John sacrificed his life to protect me, but I had to choose to protect myself.
+
+His blood stained the parliament hall red and also hurt my conscience.
+
+The entire chamber remained shrouded in a dead silence, with members shocked, angry, or fearful, and no one dared to speak easily.
+
+The guards stood still, their weapons shining with a cold light that made people shudder.
+
+The speaker's voice rang out again, breaking the brief silence: Everyone, now is not the time to hold those responsible accountable. We are facing an unprecedented crisis, and the southern rebels are approaching the capital. If we cannot unite as one, the country will face the danger of destruction!
+
+The speaker cleared his throat and said in a relatively gentle tone: I propose to make appropriate adjustments to tax policies to raise necessary funds to support national defense needs. This is a short-term measure aimed at providing sufficient security for our military to resist external threats.
+
+Then a member of parliament said: In order to enhance the flexibility of military deployment, I suggest that all ports provide free docking services for warships to facilitate rapid response and mobilization of troops.
+
+This senator is clearly from the royal faction. The speaker continued to look at me, as if hoping for my support.
+
+Me: I will assist in providing some logistical support within my capabilities. This is not only for the survival of the country, but also to protect the safety of every citizen's life and property.
+
+This is also a helpless move.
+
+The speaker continued, 'Although these measures may cause some inconvenience, we believe that through everyone's joint efforts, we will definitely be able to overcome the difficulties.'.
+
+To summarize, the general idea is to solve the problem simply by increasing taxes and forcibly requisitioning materials.
+
+This will only lead to greater social conflicts. Many businessmen may go bankrupt as a result, even leading to the collapse of the entire economic system.
+
+But everyone voted in favor, it was a choice to save their lives. Even if they did not collude with the southern rebels, there was no reason to be guilty.
+
+When the final vote was cast, a slight smile appeared on the Speaker's face.
+
+He knocked on the cover of the Code to announce: Resolution 3019 has been passed! Starting from today, all ports are open to warships free of charge, and chambers of commerce must provide logistical support and initiate an emergency tax increase plan.
+
+After the meeting, I left the venue and walked on the street.
+
+At this moment, the city's night is still brightly lit, but I feel like I am in a darkness, unable to find the direction to move forward.
+
+Act 2 Chamber of Commerce Crisis
+
+The death of John Cartwright filled my heart with guilt and unease.
+
+With the implementation of Resolution 3019.
+
+The tax increase policy has reduced the profit margin of chambers of commerce by nearly 40%, while the forced requisition of chamber of commerce materials has resulted in direct losses of over 50%.
+
+The regulation of free opening of ports to warships has directly led to a sharp decline in the trade volume of my ports, resulting in a loss of over 60% of freight orders for my multinational fleet and a debt ratio exceeding 120%.
+
+It was raining heavily outside the window, so I was working on documents in the study.
+
+The collection letters on the desk are piled up like mountains, each one pressing like a sharp knife against my throat.
+
+Steward: President, the royal carriage is parked on the side stone steps and is currently waiting in the reception room.
+
+I rubbed my temples, trying to relieve the headache that had been going on for days.
+
+Then he took a deep breath, adjusted his emotions, and gestured for the butler to go and prepare tea for reception first.
+
+It is not accidental for the royal family to send someone at this time.
+
+Arriving at the reception room, I saw a middle-aged man dressed in a black suit sitting on the sofa.
+
+Gresham: Hello, President. I am Gresham. Thank you very much for taking the time to meet me. I hope my sudden visit didn't disturb you.
+
+I maintained a graceful smile, even though every nerve was screaming a warning: the presence of the Lord is an honor for the Chamber of Commerce.
+
+The fact that the left and right hands of the royal family personally visit the door means that this is not an ordinary business negotiation.
+
+Gresham didn't waste time chatting, he elegantly took out a gilded document from his briefcase.
+
+Gresham: His Majesty the King is very concerned about the current situation in the business world, especially for chambers of commerce with a long history and outstanding contributions to the country like you.
+
+Gresham: His Majesty the King has learned that your Chamber of Commerce is currently facing some financial difficulties and hopes to inject capital to help you overcome them. However, he also hopes that the Chamber of Commerce can accept some conditions.
+
+As I took the document and touched the royal seal with my fingertips, a chill surged up my spine.
+
+The document states a capital injection plan that appears to be aid but is actually annexation.
+
+The complex terms can be summarized as follows: the royal family injects three million gold coins in exchange for 50% of the shares and decision-making power of the chamber of commerce.
+
+I try my best to keep my voice steady: this looks more like an acquisition than a capital injection, Lord.
+
+Gresham took a sip of black tea, and the sound of the teacup colliding with the tray was particularly clear in the living room: the president is a smart person. After Resolution 3019, the entire business environment has changed. The royal family needs to ensure a stable supply of strategic goods.
+
+He paused for a moment, put down his teacup, and continued, 'And you need to avoid bankruptcy liquidation.'.
+
+The firelight from the fireplace flickered on his glasses, casting unpredictable shadows.
+
+Tax increases, expropriation, and port policies are all carefully designed hunting tactics.
+
+John Cartwright's death is not the end, but the beginning.
+
+My throat tightened, as if these words were crushed stones forcefully squeezed out of my trachea: What if I refuse?
+
+Gresham's smile remained unchanged, but the room temperature seemed to plummet: Williams Chamber of Commerce and McIntosh Trading had already accepted similar terms last week. As for those who refuse ..
+
+He paused meaningfully and said, 'You must have heard about the experience of the North Sea Trade Alliance.'.
+
+The North Sea Trade Alliance was led by John Cartwright, and since his death, most of the alliance's assets have been taken over by the royal family.
+
+At this moment, my heart is undergoing a delicate and dangerous balance.
+
+My fingertips unconsciously pressed against the edge of the document, making it difficult to make a decision, so I replied, 'I need time to think about it.'.
+
+Gresham stood up and straightened his sleeves: Of course. However, let me remind you that the kindness of the royal family will not wait forever. I hope to hear good news from you within three days.
+
+Just as I was about to get up, Gresham raised his hand to stop me: the road was slippery on a rainy day, so it would be better for the president to stay by the warm fireplace.
+
+As he walked towards the entrance hall, his shiny boots followed the marble floor with a regular knocking sound, like some kind of countdown.
+
+The royal carriage ran over the gravel in the courtyard and disappeared into the rain curtain.
+
+I sat in the living room, listening to the crackling sound of wood in the fireplace and the distant sound of horse hooves, lost in thought.
+
+?accept acquisition
+&res://b1p/script/english/b1_1_5english.tres
+?struggle to the end
+&
