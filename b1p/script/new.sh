@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2025 shiyou(t1c) and all contributors
+#
+# SPDX-License-Identifier: MIT
+
 # 用户输入前缀（如 b1_1_1）
 read -p "请输入前缀（示例：b1_1）: " full_prefix
 export full_prefix  # 确保子进程继承变量
