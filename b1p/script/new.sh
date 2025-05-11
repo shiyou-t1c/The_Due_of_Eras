@@ -1,15 +1,13 @@
 #!/bin/bash
 
-# SPDX-FileCopyrightText: 2025 shiyou(t1c) and all contributors
+# SPDX-FileCopyrightText: 2025 shiyou(t1c)(wywywy3@outlook.com) and all contributors
 #
 # SPDX-License-Identifier: MIT
 
-# 用户输入前缀（如 b1_1_1）
+LICENSE_CONTENT="SPDX-FileCopyrightText: 2025 shiyou(t1c)(wywywy3@outlook.com) and all contributors\n\nSPDX-License-Identifier: MIT"
+
 read -p "请输入前缀（示例：b1_1）: " full_prefix
 export full_prefix  # 确保子进程继承变量
-
-# 预定义许可证文件内容模板
-LICENSE_CONTENT="SPDX-FileCopyrightText: 2025 shiyou(t1c) and all contributors\n\nSPDX-License-Identifier: MIT"
 
 # 并发控制参数
 MAX_JOBS=4        # 最大并发进程数
