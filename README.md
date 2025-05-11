@@ -8,7 +8,7 @@ SPDX-License-Identifier: MIT
 
 #### Introduction
 
-shiyou(t1c):
+shiyou(t1c)(wywywy3@outlook.com):
 
 The most astonishing aspect of this code lies in its ability to implement complex branching story systems and multilingual support without requiring programming expertise. Equally remarkable is its minimal hardware resource consumption, significantly lower than most galgame products currently on the market. To expedite the project’s progress, I estimate the need for a team of at least 100 members. This scale is essential due to my vision of creating hundreds of story branches, each with substantial narrative depth. In terms of programming skills and narrative design capabilities, I am likely no more advanced than you, the reader. As an ordinary office worker constrained by survival pressures, I deeply empathize with the preciousness of time—whether you are a student or someone trapped in the grueling 9-9-6 work cycle. I hope we can approach this project as a creative sanctuary and a social hub, rather than a mandatory labor. I solemnly pledge that one day in the future, when you share this endeavor with loved ones, it will stand as a radiant chapter of pride in your life’s journey.
 
@@ -24,12 +24,6 @@ If you only want to develop games and do not need to export your project as a bi
 #### Contributing  
 
 Development Guide:
-
-You need to understand the current urgent needs, which are the current work tasks. We release tasks in the form of meetings through Microsoft Teams communities. If someone wants to take responsibility, they can claim the task, just like picking up a quest in a guild in a game. You can join the community via the following link:
-
-
-https://teams.live.com/l/community/FEAwT0gP3U1us8cPgI
-
 
 Download the Godot 3.2.2 fork project and clone the forked repository.
 Create a new branch and develop on this branch.
@@ -71,13 +65,6 @@ For different language versions, the filename must include a language identifier
 
 Images need to be placed in the "picture" folder, named by appending "p" and a number directly after the current branch name. For example, in the branch file "b1_1english.tres", since images are language-agnostic, we omit the language identifier. Thus, they should be named like "b1_1p1.png", "b1_1p2.png". If an image is reused across branches, name it as "b1_1p4_and_b1_1_1p1.jpg". Audio files should be placed in the "sound_effects" folder, named by appending "a" and a number directly after the current branch name. Since audio may be language-dependent, we retain the language identifier. For example, "b1_1chinese_a1.wav". For language-agnostic audio, name them like "b1_1a1.wav".If an audio file is reused, it should be named like "b1_1a1_and_b1_1_1a1.wav".
 
-### Contact and Networks
-
-Although email is a convenient way to contact us, we also provide an online community for discussions and Q&A. We use Microsoft Teams—here’s the invitation link:
-
-
-https://teams.live.com/l/community/FEAwT0gP3U1us8cPgI
-
 ### Regarding the Handling of Binary Files
 
 In the software development process, binary files (such as images, videos, compiled executable files, etc.) are often an indispensable part of the project. However, these files are usually large in size, and storing them directly in the version control system may cause the warehouse to expand in size, affecting performance. Therefore, it is crucial to manage binary files reasonably.
@@ -107,7 +94,7 @@ Each code repository is a main repository, so before synchronizing the code, ens
 The reason we do not provide pre-compiled binary executable files is because the laws regarding games vary by country, and distributing binary executable files may violate legal regulations.
 
 
-#### Open Source License  
+### Open Source License  
 
 MIT License:  
 
