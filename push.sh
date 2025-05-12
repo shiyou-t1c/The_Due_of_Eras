@@ -7,6 +7,8 @@
 
 set -e  # 任何命令失败则退出脚本
 
+git config pull.rebase  false
+
 # 清理临时文件
 cleanup() {
     rm -rf .import
