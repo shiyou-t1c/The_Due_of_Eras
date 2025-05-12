@@ -6,13 +6,15 @@ SPDX-License-Identifier: MIT
 
 # The_Duel_of_Eras
 
-#### Introduction
+[中文](Readme_zh.md) | [English](Readme_en.md) | [日本語](Readme_ja.md)
+
+### Introduction
 
 shiyou(t1c)(wywywy3@outlook.com):
 
 The most astonishing aspect of this code lies in its ability to implement complex branching story systems and multilingual support without requiring programming expertise. Equally remarkable is its minimal hardware resource consumption, significantly lower than most galgame products currently on the market. To expedite the project’s progress, I estimate the need for a team of at least 100 members. This scale is essential due to my vision of creating hundreds of story branches, each with substantial narrative depth. In terms of programming skills and narrative design capabilities, I am likely no more advanced than you, the reader. As an ordinary office worker constrained by survival pressures, I deeply empathize with the preciousness of time—whether you are a student or someone trapped in the grueling 9-9-6 work cycle. I hope we can approach this project as a creative sanctuary and a social hub, rather than a mandatory labor. I solemnly pledge that one day in the future, when you share this endeavor with loved ones, it will stand as a radiant chapter of pride in your life’s journey.
 
-#### Software Architecture  
+### Software Architecture  
 Developed with Godot 3.2.2, using OpenGL ES 2.0.
 
 Download Godot 3.2.2 stable :
@@ -21,7 +23,7 @@ https://godotengine.org/download/archive/3.2.2-stable/
 
 If you only want to develop games and do not need to export your project as a binary executable file, you can choose not to download the "Export Templates".
 
-#### Contributing  
+### Contributing  
 
 Development Guide:
 
@@ -56,6 +58,13 @@ We don’t have strict working hours, and all decisions are made through voting.
 ### Plot summary
 
 The empire of another world is blessed with abundant natural resources and thriving agriculture. The ruling class of the kingdom consists of old nobility, whose families have controlled most of the land and political power for generations. However, with the rise of overseas trade and the emergence of capitalism, a new merchant class and landed gentry have begun to ascend, eager to gain greater political influence and economic privileges. As a rising merchant, you participate in this era of profound societal change.
+
+There are four interest groups in the game: the Merchant Guild, the Prime Minister, the Rebels, and the Royal Family.
+
+The Royal Family holds military authority
+The Prime Minister possesses executive power
+The Rebels have both military forces and popular support
+The Merchant Guild controls wealth and social connections
 
 ### Branch Naming Rules
 
